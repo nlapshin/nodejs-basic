@@ -1,0 +1,17 @@
+{
+  "name": "sub-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./hello-world.js",
+    "start:dev": "node --watch ./hello-world.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ms": "^2.1.3"
+  }
+}
